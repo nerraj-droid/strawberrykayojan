@@ -1,0 +1,88 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.imageclassification"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:7:5-80
+13-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:7:22-77
+14
+15    <application
+15-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:9:5-31:19
+16        android:allowBackup="true"
+16-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\balag\.gradle\caches\transforms-2\files-2.1\c3d2084802b5211df9c6a1255ff1a2c7\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:11:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:12:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:13:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:14:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:15:9-40
+26        <activity android:name="com.example.ucordilleras.leafscorch_diseases" />
+26-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:16:9-57
+26-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:16:19-54
+27        <activity android:name="com.example.ucordilleras.leafblight" />
+27-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:17:9-48
+27-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:17:19-45
+28        <activity android:name="com.example.ucordilleras.graymold_disease" />
+28-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:18:9-54
+28-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:18:19-51
+29        <activity android:name="com.example.ucordilleras.anthracnose_disease" />
+29-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:19:9-57
+29-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:19:19-54
+30        <activity android:name="com.example.ucordilleras.leafspot_disease" />
+30-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:20:9-54
+30-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:20:19-51
+31        <activity android:name="com.example.ucordilleras.MainActivity" />
+31-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:21:9-50
+31-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:21:19-47
+32        <activity android:name="com.example.ucordilleras.secondact" />
+32-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:22:9-47
+32-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:22:19-44
+33        <activity android:name="com.example.ucordilleras.first" />
+33-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:23:9-42
+33-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:23:19-40
+34        <activity android:name="com.example.ucordilleras.splashscreen" >
+34-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:24:9-30:20
+34-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:24:19-47
+35            <intent-filter>
+35-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:25:13-29:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:26:17-69
+36-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:26:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:28:17-77
+38-->C:\Users\balag\OneDrive\Documents\UCPS2\app\src\main\AndroidManifest.xml:28:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->[com.karumi:dexter:5.0.0] C:\Users\balag\.gradle\caches\transforms-2\files-2.1\fabfba2bc7a2448f7c252cbb3fe4f427\jetified-dexter-5.0.0\AndroidManifest.xml:27:9-29:72
+42            android:name="com.karumi.dexter.DexterActivity"
+42-->[com.karumi:dexter:5.0.0] C:\Users\balag\.gradle\caches\transforms-2\files-2.1\fabfba2bc7a2448f7c252cbb3fe4f427\jetified-dexter-5.0.0\AndroidManifest.xml:28:13-60
+43            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+43-->[com.karumi:dexter:5.0.0] C:\Users\balag\.gradle\caches\transforms-2\files-2.1\fabfba2bc7a2448f7c252cbb3fe4f427\jetified-dexter-5.0.0\AndroidManifest.xml:29:13-69
+44    </application>
+45
+46</manifest>

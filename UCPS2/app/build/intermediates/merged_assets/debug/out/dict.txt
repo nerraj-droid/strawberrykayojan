@@ -1,0 +1,9 @@
+UC_logo
+healthy
+Invalid
+anthracnose
+graymold
+mycosphaerella_fragariae
+leafscorch
+leafblight
+leafspot

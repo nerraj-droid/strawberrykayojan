@@ -1,0 +1,2 @@
+rootProject.name='UC Strawberry Diagnosis'
+include ':app'
